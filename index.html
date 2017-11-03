@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Boboc's Shop</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+           <a href="index.html" class="navbar-brand">Boboc's Shop</a>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Accesories</a></li>
+                    </ul>  
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Accesories</a></li>
+                    </ul>  
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kids<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Jackets</a></li>
+                    </ul>  
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Girls<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Jackets</a></li>
+                    </ul>  
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="headerWrapper"> 
+        <div id="back-image"></div>
+    </div>
+<div class="container-fluid">
+    <div class="col-md-2">Left side bar</div>
+    <!--main content-->
+    <div class="col-md-8">
+        <div class="row">
+            <h2 class="text-center">Feature Products</h2>
+            <div class="col-md-3">
+                <h4>Jack and Jones Jeans</h4>
+                <img src="images/jeans.jpg" alt="Jack and Jones Jeans" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>36,40 €</s></p>
+                <p class="price">Our Price: 26,40 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">Details</button>
+            </div>
+            <div class="col-md-3">
+                <h4>Levis Jeans</h4>
+                <img src="images/jeans1.jpg" alt="Levis Jeans" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>56,50 €</s></p>
+                <p class="price">Our Price: 35,50 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-2">Details</button>
+            </div>
+            <div class="col-md-3">
+                <h4>Jack and Jones Shirt</h4>
+                <img src="images/shirt.jpg" alt="Jack and Jones Shirt" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>40,00 €</s></p>
+                <p class="price">Our Price: 20,00 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-3">Details</button>
+            </div>
+            <div class="col-md-3">
+                <h4>Lee Cooper Shirt</h4>
+                <img src="images/shirt1.jpg" alt="Lee Cooper Shirt" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>24,99 €</s></p>
+                <p class="price">Our Price: 14,99 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-4">Details</button>
+            </div>
+            <div class="col-md-3">
+                <h4>Chelsea Boots</h4>
+                <img src="images/shoes.jpg" alt="Chelsea Boots" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>89,99 €</s></p>
+                <p class="price">Our Price: 59,99 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-5">Details</button>
+            </div>
+            <div class="col-md-3">
+                <h4>Loake Shoes</h4>
+                <img src="images/shoes1.jpg" alt="Loake Shoes" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>99,99 €</s></p>
+                <p class="price">Our Price: 79,99 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-6">Details</button>
+            </div>
+            <div class="col-md-3">
+                <h4>Converse Shoes</h4>
+                <img src="images/shoes3.jpg" alt="Converse Shoes" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>54,99 €</s></p>
+                <p class="price">Our Price: 39,99 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-7">Details</button>
+            </div>
+            <div class="col-md-3">
+                <h4>New Balance Running Shoes</h4>
+                <img src="images/shoes2.jpg" alt="New Balance Running Shoes" class="img-thumb"/>
+                <p class="list-price text-danger">List Price: <s>99,99 €</s></p>
+                <p class="price">Our Price: 59,99 €</p>
+                <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-8">Details</button>
+            </div>
+        </div>    
+    </div>
+    
+    <div class="col-md-2">Right side bar</div>
+</div>
+ 
+ <footer class="text-center" id="footer">
+     &copy; Copyright 2015-2018 Boboc's Shop
+ </footer>
+ <div class="modal fade details-1" id="details-1" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> Jack and Jones Jeans </h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/jeans.jpg" alt="Jack and Jones Jeans" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p>Get a premium look in a premium wear by adding these Tim Slim Jean Intelligence Men's Jeans by Jack and Jones to your collection - crafted with a triple button fastening fly and single button fastening waist, in a slim fit and a classic five pocket design. Jack and Jones branding sits to a tab to the back of the waist. </p>
+                         <hr>
+                         <p>Price: 26,40 €</p>
+                         <p>Brand: Jack and Jones</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 5</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="30">30</option>
+                                     <option value="31">31</option>
+                                     <option value="32">32</option>
+                                     <option value="32">32</option>
+                                     <option value="33">33</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+ <div class="modal fade details-1" id="details-2" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> Levis Jeans </h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/jeans1.jpg" alt="Jack and Jones Jeans" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p>A modern slim with room to move, the 511™ Slim Fit Jeans are a classic since right now. This pair is constructed from heavyweight denim with a classic look and substantial feel. </p>
+                         <hr>
+                         <p>Price: 35,50 €</p>
+                         <p>Brand: Levis</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 2</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="30">26</option>
+                                     <option value="31">28</option>
+                                     <option value="32">29</option>
+                                     <option value="32">30</option>
+                                     <option value="33">36</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+ <div class="modal fade details-1" id="details-3" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> Jack and Jones Shirt </h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/shirt.jpg" alt="Jack and Jones Shirt" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p>Cube Long Sleeve Shirt by Jack and Jones
+                         <br>> Shirt 
+                         <br>> Long sleeves 
+                         <br>> Button down collar
+                         <br>> Button wrist cuffs 
+                         <br>> Checked 
+                         <br>> Open chest pocket 
+                         <br>> Lightweight 
+                         <br>> Button up fastening 
+                         <br>> Jack and Jones branding 
+                         <br>> 100% cotton 
+                         <br>> Machine washable at 40 degrees  </p>
+                         <hr>
+                         <p>Price: 20,00 €</p>
+                         <p>Brand: Jack and Jones</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 8</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="S">S</option>
+                                     <option value="M">M</option>
+                                     <option value="L">L</option>
+                                     <option value="XL">XL</option>
+                                     <option value="XXL">XXL</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+ <div class="modal fade details-1" id="details-4" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> Lee Cooper Shirt </h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/shirt1.jpg" alt="Lee Cooper Shirt" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p>Cube Long Sleeve Shirt by Lee Cooper
+                         <br>> Shirt 
+                         <br>> Long sleeves 
+                         <br>> Button down collar
+                         <br><br>> Button wrist cuffs 
+                         <br>> Checked 
+                         <br>> Open chest pocket 
+                         <br>> Lightweight 
+                         <br>> Button up fastening 
+                         <br>> Jack and Jones branding 
+                         <br>> 100% cotton 
+                         <br>> Machine washable at 40 degrees  </p>
+                         <hr>
+                         <p>Price: 14,99 €</p>
+                         <p>Brand: Jack and Jones</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 6</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="S">S</option>
+                                     <option value="M">M</option>
+                                     <option value="L">L</option>
+                                     <option value="XL">XL</option>
+                                     <option value="XXL">XXL</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+ <div class="modal fade details-1" id="details-5" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> Chelsea Boots </h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/shoes.jpg" alt="Chelsea Boots" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p> Elegant style arrives in abundance with these Firetrap Francis Mens Chelsea Boots which have been crafted with a highly textured sole for outstanding traction, whilst the elasticated inserts supply a secure fit whilst providing an iconic look and the soft leather upper and lining offer luxurious comfort </p>
+                         <hr>
+                         <p>Price: 59,99 €</p>
+                         <p>Brand: Firetrap</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 3</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="40">40</option>
+                                     <option value="41">41</option>
+                                     <option value="42">42</option>
+                                     <option value="43">43</option>
+                                     <option value="44">44</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+ <div class="modal fade details-1" id="details-6" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> Loake Shoes </h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/shoes1.jpg" alt="Loake Shoes" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p>Swoop brogue shoe made from matt finish leathers, featuring a Goodyear Welted rubber sole. Demon is available in black, burgundy and dark brown and is made in India. </p>
+                         <hr>
+                         <p>Price: 79,99 €</p>
+                         <p>Brand: Loake</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 5</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="40">40</option>
+                                     <option value="41">41</option>
+                                     <option value="42">42</option>
+                                     <option value="43">43</option>
+                                     <option value="44">44</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+ <div class="modal fade details-1" id="details-7" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> Converse Shoes Unisex</h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/shoes3.jpg" alt="Loake Shoes" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p>You need a style to rely on. The Chuck Taylor All-Star is a staple: the high-top and oxford silhouettes stay simply classic, while the white laces and star ankle patch give a nod to the legacy of the Chuck. This is the go-with-everything go-to that you won’t get sick of going to. Stock up. </p>
+                         <hr>
+                         <p>Price: 39,99 €</p>
+                         <p>Brand: Converse</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 9</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="35">35</option>
+                                     <option value="36">36</option>
+                                     <option value="38">38</option>
+                                     <option value="39">39</option>
+                                     <option value="40">40</option>
+                                     <option value="41">41</option>
+                                     <option value="42">42</option>
+                                     <option value="43">43</option>
+                                     <option value="44">44</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+ <div class="modal fade details-1" id="details-8" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+         <div class="modal-header">
+             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <h4 class="modal-title text-center"> New Balance Running Shoes</h4>
+         </div>
+         <div class="modal-body">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-sm-6">
+                         <div class="center-block">
+                             <img src="images/shoes2.jpg" alt="Loake Shoes" class="details img-reponsive">
+                         </div>
+                     </div>
+                     <div class="col-sm-6">
+                         <h4>Details</h4>
+                         <p>With dynamic flexibility and support, the MX99v2 is here to help you take your next training session to the max.
+                         <br>Breathable, skeletally engineered FantomFit mesh uppers with no-sew synthetic overlays for a lightweight wear.
+                         <br>Traditional lace-up closures.
+                         <br>Thin tongue and collar mold to your ankle for a second-skin feel and agility.
+                         <br>Breathable textile linings.
+                         <br>Features a NB Response 2.0 performance insert for added comfort and support.
+                         <br>Features a shock-absorbing Flexonic midsole and outsole that delivers lightweight cushioning. </p>
+                         <hr>
+                         <p>Price: 39,99 €</p>
+                         <p>Brand: Converse</p>
+                         <form action="#" method="post">
+                             <div class="form-group">
+                                 <div class="col-xs-3">
+                                     <label for="quantity">Quantity:</label>
+                                     <input type="text" class="form-control" id="quantitiy" name="quantity">
+                                 </div>
+                                  <p>Available: 3</p>
+                             </div><br><br>
+                             <div class="form-group">
+                                 <label for="size">Size</label>
+                                 <select name="size" id="size" class="form-control">
+                                     <option value=""></option>
+                                     <option value="42">42</option>
+                                     <option value="43">43</option>
+                                     <option value="44">44</option>
+                                 </select>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="modal-footer">
+             <button class="btn btn-default" data-dismiss="modal">Close</button>
+             <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-shopping-cart">Add To Cart</span></button>
+         </div>
+         </div>
+     </div>
+ </div>
+  </body>
+</html>

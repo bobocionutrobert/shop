@@ -1,0 +1,34 @@
+body{
+    padding-top: 50px;
+}
+
+#headerWrapper{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 600px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-position: top center;
+    background-attachment: fixed;
+    
+}
+
+.img-thumb{
+    width: auto;
+    height: 200px;
+}
+
+#footer{
+    margin-top: 50px;
+    
+}
+
+img.thumb{
+    width: 33%;
+    margin: 15px auto;
+    
+    
+}
